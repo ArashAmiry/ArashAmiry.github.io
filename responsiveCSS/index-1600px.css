@@ -1,0 +1,6 @@
+/* For devices smaller than 1600px but larger than 1350px ************ 1600pz >= x  > 1350px*/
+@media only screen and (max-width: 1600px) {
+   .profile_image{
+    margin-right: 5%;
+   }
+  }

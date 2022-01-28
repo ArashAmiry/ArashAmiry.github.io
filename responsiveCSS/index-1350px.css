@@ -1,0 +1,18 @@
+/* For devices smaller than 1350px but larger than XXXXXX */
+@media only screen and (max-width: 1350px) {
+    .person_info, .contact{
+        margin-left: 7%;
+    }
+
+    .person_name{
+        font-size: 45px;
+    }
+
+    #container{
+        font-size: 20px;
+    }
+
+    .contact{
+        font-size: 15px;
+    }
+   }
