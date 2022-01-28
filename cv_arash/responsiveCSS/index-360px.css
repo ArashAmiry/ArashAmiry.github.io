@@ -1,0 +1,29 @@
+/* For devices smaller than 360px but larger than XXXXXX */
+@media only screen and (max-width: 360px) {
+    .person_name{
+        font-size: 25px;
+    }
+
+    .profile_image{
+        height: 263px;
+        margin-right: 14%;
+        margin-top: 25%;
+    }
+
+    .profile_image > img{
+        height: 350px;
+        margin-top: -37%;
+    }
+
+    #container{
+        font-size: 12px;
+    }
+
+    .contact{
+        margin-right: 11%;
+    }
+
+    .fa{
+        width: 15px;
+    }
+    }
