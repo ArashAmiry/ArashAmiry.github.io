@@ -1,0 +1,244 @@
+/* Mobile first approach */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f3;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.image-background{
+    margin: 0 20px;
+    position: relative;
+    height: 40vh;
+    background-image: url(../images/profile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-background::after{
+    content: ""; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(135deg, rgba(220,225,228,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 2px 2px 10px rgb(216, 216, 216);
+    border-radius: 10px;
+    z-index: -999;
+}
+
+.left-col{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-col h1{
+    font-size: 1.7em;
+    margin-bottom: 13px;
+}
+
+.sub-head h3{
+    display: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+    color: black;
+    background: rgb(220,225,228);
+    background: linear-gradient(135deg, rgba(220,225,228,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 2px 2px 5px rgb(230, 230, 230);
+
+  }
+  
+  .fa:hover {
+      color: #ff014f;
+      opacity: 0.7;
+  }
+
+  .sub-head ul{
+      padding-left: 0;
+      margin-top: 30px;
+      display: flex;
+      list-style: none;
+  }
+
+  .education{
+      border-top: 1px solid rgb(219, 219, 219);
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .education h1{
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+  }
+
+  .education ul{
+      padding-left: 0px;
+      list-style: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+  }
+
+  .education i{
+      padding: 20px 0px 0px 20px;
+      color: #ff014f;
+  }
+
+  .education h3{
+      padding-left: 15px;
+      margin-bottom: 5px;
+      padding-right: 20px;
+  }
+
+  .education li{
+    background: linear-gradient(135deg, rgba(220,225,228,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 2px 2px 10px rgb(216, 216, 216);
+    border-radius: 10px;
+  }
+
+  .education p{
+      padding-left: 20px;
+  }
+  
+  .education-info{
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  .education .year-of-graduation, .year{
+      margin-top: 4px;
+      font-size: 13px;
+      color: #ff014f;
+  }
+
+  .portfolio{
+    border-top: 1px solid rgb(219, 219, 219);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .portfolio h1{
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+
+  }
+
+  .portfolio ul{
+    padding-left: 0px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.portfolio li{
+    background: rgb(255,31,100);
+    background: linear-gradient(135deg, rgba(255,31,100,1) 0%, rgba(210,20,21,1) 100%);
+    box-shadow: 2px 2px 10px rgb(216, 216, 216);
+    border-radius: 10px;
+    color: white;
+}
+
+.portfolio h3{
+    padding-left: 15px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.portfolio p{
+    padding-left: 20px;
+}
+
+.portfolio-info{
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.image-container{
+    padding: 15px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.portfolio img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.portfolio .year{
+    color: white;
+}
+
+.experience{
+    border-top: 1px solid rgb(219, 219, 219);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.experience h1{
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+}
+
+.experience ul{
+    padding-left: 0px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.experience li{
+    background: rgb(220,225,228);
+    background: linear-gradient(135deg, rgba(220,225,228,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 2px 2px 5px rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.experience h3{
+    border-top: 1px solid rgb(219, 219, 219);
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.experience p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.experience .job-logo{
+    padding: 15px 15px 0px 15px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.experience .logo{
+    border-radius: 15px 15px 0 0;
+    width: 60%;
+    height: 150px;
+    object-fit: contain;
+}
